@@ -1,0 +1,46 @@
+include::../doc-config.adoc[]
+// Язык документов
+:lang: ru
+// Названия стандартных элементов
+:appendix-caption: Приложение
+:appendix-refsig: {appendix-caption}
+:caution-caption: Внимание
+//:chapter-signifier: Глава
+:chapter-refsig: Глава
+:example-caption: Пример
+:figure-caption: Рис.
+:important-caption: Важно
+:last-update-label: Последнее обновление
+ifdef::listing-caption[:listing-caption: Листинг]
+ifdef::manname-title[:manname-title: Название]
+:note-caption: Примечание
+:part-signifier: Часть
+:part-refsig: {part-signifier}
+ifdef::preface-title[:preface-title: Предисловие]
+:section-refsig: Раздел
+:table-caption: Табл.
+:tip-caption: Совет
+:toc-title: Содержание
+:untitled-label: Без названия
+:version-label: Версия
+:warning-caption: Предупреждение
+// Названия основных типов документов
+:AppDescription: Описание приложения
+:ProductDescription: Описание продукта
+:IntegrationGuide: Руководство по интеграции
+:UserGuide: Руководство пользователя
+:WorkspaceUserGuide: Руководство пользователя АРМ
+:DevGuide: Руководство разработчика
+:AdminGuide: Руководство по эксплуатации
+:SizingGuide: Методика расчета аппаратной платформы
+:APIGuide: Описание API
+:InstallGuide: Руководство по установке
+// Локальные переменные для тестирования
+// Каталог с изображениями для оформления акцентных вставок
+//:iconsdir: common/images/icons/
+// Каталог с темами для использования при сборке PDF
+//:pdf-themesdir: common/themes/
+// Тема, расширяющая тему Asciidoctor по умолчанию
+//:pdf-theme: base-theme.yml
+// Каталог с шрифтами для использования при сборке PDF
+//:pdf-fontsdir: common/fonts/

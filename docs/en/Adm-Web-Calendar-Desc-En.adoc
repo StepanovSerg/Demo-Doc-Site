@@ -1,0 +1,39 @@
+﻿// AsciiDoc attributes, language-specific and app-specific variables along with custom attributes and variables defined in the project
+include::app-config.adoc[]
+include::doc-config.adoc[]
+// Adds PDF-only content and excludes HTML-only content (cross-references, image attributes, etc.)
+:PDF:
+// A variable for selecting terms to include in the glossary
+:general-glossary:
+// Images directory path
+:imagesdir: modules/ROOT/images/
+// The document type to display on the title page. With this variable, you can refer to one of the document types predefined in docs/en/doc-config.adoc. You can also use this attribute to group descriptions of version-specific changes by document in the revision history (docs/en/content/revision-history.adoc)
+:document-type: AppDescription
+// Enables a title page showing the app name, document type, and version (by default, the version is commented; uncomment it and make sure that it matches the version specified in build.gradle.kts
+:document-title: {AppDescription}
+= {app-name}
+{document-title}
+// If you need to show the app version on the title page, uncomment this line. You can define this attribute in docs/app-config.adoc
+//Version {version}
+// The number of heading levels to display in the TOC in a PDF file
+:toclevels: 3
+// The number of heading levels to display as PDF bookmarks. The second number is the number of levels to expand upon opening a PDF file
+:outlinelevels: 4:0
+// The number of levels for heading auto-numbering
+:sectnumlevels: 3
+// Uncomment this line to include the copyright statement and other relevant legal information
+//include::content/legal-info.adoc[]
+
+// Table of contents
+toc::[]
+
+// Overview
+include::modules/ROOT/pages/description/overview/overview.adoc[leveloffset=+1]
+
+// Architecture
+include::modules/ROOT/pages/description/architecture/architecture.adoc[leveloffset=+1]
+
+// Revision history
+:sectnums!:
+
+include::content/revision-history.adoc[]

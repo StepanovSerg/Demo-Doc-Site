@@ -1,0 +1,35 @@
+* xref:web/app-description.adoc[Описание]
+
+** xref:description/overview/overview.adoc[Назначение]
+
+** xref:description/architecture/architecture.adoc[Архитектура]
+
+** xref:description/features/features.adoc[Функциональные возможности]
+
+** xref:description/integration/interfaces.adoc[Поддерживаемые интерфейсы]
+
+* xref:web/workspace-user-guide.adoc[Руководство пользователя АРМ]
+
+** xref:workspace-user-guide/overview/overview.adoc[Общие сведения]
+
+** xref:workspace-user-guide/access-control/access-control-overview.adoc[Права доступа]
+
+** xref:workspace-user-guide/getting-started/get-started.adoc[Начало работы]
+
+** xref:workspace-user-guide/user-flows/user-flows-overview.adoc[Основные сценарии использования]
+
+*** xref:workspace-user-guide/user-flows/user-flow-1-view-calendar-list.adoc[Просмотр списка календарей]
+
+*** xref:workspace-user-guide/user-flows/user-flow-2-view-calendar.adoc[Просмотр календаря]
+
+*** xref:workspace-user-guide/user-flows/user-flow-3-create-calendar.adoc[Создание календаря]
+
+*** xref:workspace-user-guide/user-flows/user-flow-4-delete-calendar.adoc[Удаление календаря]
+
+*** xref:workspace-user-guide/user-flows/user-flow-5-change-calendar-settings.adoc[Изменение параметров календаря]
+
+*** xref:workspace-user-guide/user-flows/user-flow-6-change-date-settings.adoc[Изменение параметров дат в календаре]
+
+* xref:description/glossary/glossary.adoc[Глоссарий]
+
+* xref:description/glossary/acronyms.adoc[Сокращения]

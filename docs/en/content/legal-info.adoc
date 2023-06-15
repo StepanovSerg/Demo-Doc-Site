@@ -1,0 +1,25 @@
+:doctitle!:
+:CompanyName-EN: Innotech
+:CopyrightYear: {localyear}
+:CompanyAddress-EN: Lugovaya str. 4 bld. 5, suite 19, Moscow, Skolkovo Residence, 121205, Russia
+:CompanyContacts-EN: Tel.: 8 800 500 33 33
+:Company-email: Email: office@inno.tech; https://inno.tech[https://inno.tech]
+
+[.base]
+
+Some legal boilerplate.
+
+[.text-right]
+(C) {CompanyName-EN}, {CopyrightYear}
+
+{empty} +
+{empty} +
+{empty} +
+
+{CompanyName-EN}
+
+{CompanyAddress-EN}
+
+{CompanyContacts-EN}
+
+{Company-email}

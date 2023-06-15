@@ -1,0 +1,16 @@
+= Основные сценарии использования
+
+Основные сценарии использования приложения «{app-name}»:
+
+* xref:workspace-user-guide/user-flows/user-flow-1-view-calendar-list.adoc[просмотр списка календарей];
+
+* xref:workspace-user-guide/user-flows/user-flow-2-view-calendar.adoc[просмотр календаря];
+
+* xref:workspace-user-guide/user-flows/user-flow-3-create-calendar.adoc[создание календаря];
+
+* xref:workspace-user-guide/user-flows/user-flow-4-delete-calendar.adoc[удаление календаря];
+
+* xref:workspace-user-guide/user-flows/user-flow-5-change-calendar-settings.adoc[изменение параметров календаря];
+
+* xref:workspace-user-guide/user-flows/user-flow-6-change-date-settings.adoc[изменение параметров дат в календаре].
+

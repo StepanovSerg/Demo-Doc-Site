@@ -1,0 +1,6 @@
+* xref:web/app-description.adoc[Description]
+
+** xref:description/overview/overview.adoc[Overview]
+
+** xref:description/architecture/architecture.adoc[Architecture]
+

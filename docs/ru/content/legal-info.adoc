@@ -1,0 +1,25 @@
+:doctitle!:
+:CompanyName-RU: Группа компаний «Иннотех»
+:CopyrightYear: {localyear}
+:CompanyAddress-RU: Москва, территория инновационного центра «Сколково», ул. Луговая, д. 4, корп. 5, пом. 19
+:CompanyContacts-RU: Тел.: +7 495 212-06-50
+:Company-email: mailto: office@inno.tech; https://inno.tech[https://inno.tech]
+
+[.base]
+
+Юридический текст о том, что документация защищена законодательством об авторском праве.
+
+[.text-right]
+(C) {CompanyName-RU}, {CopyrightYear}
+
+{empty} +
+{empty} +
+{empty} +
+
+{CompanyName-RU}
+
+{CompanyAddress-RU}
+
+{CompanyContacts-RU}
+
+{Company-email}

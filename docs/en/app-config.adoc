@@ -1,0 +1,5 @@
+// App variables that are specific for docs in English
+include::../app-config.adoc[]
+:app-name: Calendar Admin Console
+
+

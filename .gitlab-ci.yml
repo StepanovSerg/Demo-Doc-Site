@@ -1,0 +1,36 @@
+include:
+  - project: dbp/ci_templates
+    ref: latest
+    file:
+      - /pipelines/facade_chart.yaml
+
+###
+# Required group/project vars:
+#
+# NEXUS_REPOSITORY
+# HELM_REPOSITORY
+# NEXUS_DOCKER_REGISTRY
+# NEXUS_USER
+# NEXUS_PASSWORD
+# PROJECT_ACCESS_TOKEN
+###
+variables:
+  # BASE
+  PROJECT_NAME: rb-adm-web-system-calendar
+  SETUP_ENVIRONMENTS_FILE: setup.env
+  ### Helm
+  # Space separated list of Helm chart directories to package,
+  # specified in order of dependency (i.e. 1st chart should not have local dependencies at all).
+  HELM_CHARTS: helm/adm-web-system-calendar-facade helm/adm-web-system-calendar-review
+  ### Stand deployment
+  # for review stand
+  REVIEW_STAND_CHART: $PROJECT_NAME-review-$BUILD_VERSION.tgz
+  REVIEW_STAND_CHART_OPTIONS: --wait-for-jobs
+  # for dev stand
+  DEV_STAND_CHART: $PROJECT_NAME-review-$BUILD_VERSION.tgz
+  STAND_VALUES_TEMPLATE: helm/stand-values.yaml
+  STAND_INGRESS_PREFIX: adm-web-system-calendar
+  HELM_DEPLOY_TIMEOUT: 10m
+  # docs
+  ASCIIDOC_ENABLED: "true"
+  DOCS_BUILD_DIR: docs/build/docs/asciidocPdf/ru

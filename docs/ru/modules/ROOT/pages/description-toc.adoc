@@ -1,0 +1,23 @@
+:page-layout: pdf
+:page-doc-type: Описание приложения
+:!sectids:
+:PDF:
+
+// Назначение
+include::description/overview/overview.adoc[leveloffset=+1]
+
+// Архитектура
+include::description/architecture/architecture.adoc[leveloffset=+1]
+
+// Функциональные возможности
+include::description/features/features.adoc[leveloffset=+1]
+
+// Поддерживаемые интерфейсы
+include::description/integration/interfaces.adoc[leveloffset=+1]
+
+//Глоссарий
+
+include::description/glossary/glossary.adoc[leveloffset=+1]
+
+// Сокращения
+include::description/glossary/acronyms.adoc[leveloffset=+1]

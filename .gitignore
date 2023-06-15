@@ -1,0 +1,12 @@
+.idea/
+.gradle
+docs/build/
+ui/
+*.tgz
+*.pdf
+*.bkp
+*.dtmp
+doc-build.log
+doc-build.sh
+local-build.yml
+Chart.lock
