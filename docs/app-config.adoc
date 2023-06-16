@@ -1,5 +1,0 @@
-// App-specific variables that are common for docs both in Russian and in English
-// App acronym. Leave empty if the app doesn't have an acronym
-:app-code:
-// App version
-//:version: 1.0.0
